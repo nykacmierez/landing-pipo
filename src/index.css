@@ -8,7 +8,7 @@
   }
 
   body {
-    font-family: 'Fredoka', sans-serif;
+    font-family: "Fredoka", sans-serif;
     overflow-x: hidden;
   }
 }
@@ -23,7 +23,8 @@
   }
 
   @keyframes float {
-    0%, 100% {
+    0%,
+    100% {
       transform: translateY(0px);
     }
     50% {

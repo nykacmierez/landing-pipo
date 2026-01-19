@@ -77,7 +77,7 @@ export default function Invitation() {
                   </div>
                   <div>
                     <p className="font-bold text-lg" style={{ fontFamily: 'Fredoka, sans-serif' }}>
-                      15 de Junio, 2026
+                      07 de Febrero, 2026
                     </p>
                   </div>
                 </motion.div>
@@ -91,7 +91,7 @@ export default function Invitation() {
                   </div>
                   <div>
                     <p className="font-bold text-lg" style={{ fontFamily: 'Fredoka, sans-serif' }}>
-                      4:00 PM
+                      18:00 hs
                     </p>
                   </div>
                 </motion.div>
@@ -105,7 +105,7 @@ export default function Invitation() {
                   </div>
                   <div>
                     <p className="font-bold text-lg" style={{ fontFamily: 'Fredoka, sans-serif' }}>
-                      Salón de Fiestas
+                      Casa de mis abuelos
                     </p>
                   </div>
                 </motion.div>
