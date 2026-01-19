@@ -24,9 +24,9 @@ export default function Invitation() {
           >
             <div className="relative h-full max-h-[420px] md:max-h-[480px] rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
               <img
-                src="/images/image-4.webp"
+                src="/images/principal.webp"
                 alt="Cumpleañero"
-                className="w-full h-full object-cover object-[center_63%]"
+                className="w-full h-full object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-amber-900/30 to-transparent"></div>
             </div>
