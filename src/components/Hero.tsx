@@ -56,7 +56,8 @@ export default function Hero() {
           className="text-5xl md:text-7xl lg:text-8xl font-bold text-amber-700 mb-6"
           style={{ fontFamily: 'Fredoka, sans-serif' }}
         >
-          ¡Cumplo 1 Añito!
+          Mi Primer Añito <br />
+
         </motion.h1>
 
         <motion.p

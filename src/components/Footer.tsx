@@ -50,7 +50,7 @@ export default function Footer() {
               className="text-gray-600"
               style={{ fontFamily: 'Comic Neue, cursive' }}
             >
-              © 2026 Hecho con{' '}
+              © Hecho con{' '}
               <Heart className="inline text-red-500 fill-red-500" size={16} />{' '}
               por Lucas Mierez
             </p>

@@ -28,7 +28,7 @@ export default function Navbar() {
               className="h-10 w-10 md:h-24 md:w-24 rounded-full"
             />
             <span className="text-2xl md:text-3xl font-bold text-amber-700" style={{ fontFamily: 'Fredoka, sans-serif' }}>
-              Mi 1er Año
+              Mi 1er Añito - Álvaro
             </span>
           </motion.div>
 

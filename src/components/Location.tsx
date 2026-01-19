@@ -35,13 +35,13 @@ export default function Location() {
                     className="text-2xl md:text-3xl font-bold text-sky-600 mb-2"
                     style={{ fontFamily: 'Fredoka, sans-serif' }}
                   >
-                    Casa de la Iaia
+                    Mi Casa
                   </h3>
                   <p
                     className="text-lg text-gray-700"
                     style={{ fontFamily: 'Comic Neue, cursive' }}
                   >
-                    Luis Zamora 123
+                    Luis Zamora S/N
                     <br />
                     Juan Pujol, Corrientes
                   </p>
@@ -79,7 +79,11 @@ export default function Location() {
                 </li>
                 <li>
                   <span className="text-yellow-500 mr-2">★</span>
-                  Invitado especial: la luz mala y el Lobizon
+                  Traer silletas para mas comodidad
+                </li>
+                <li>
+                  <span className="text-yellow-500 mr-2">★</span>
+                  Podés traer tu mate / tere
                 </li>
               </ul>
             </div>

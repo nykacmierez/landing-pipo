@@ -24,9 +24,9 @@ export default function Invitation() {
           >
             <div className="relative h-full max-h-[420px] md:max-h-[480px] rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
               <img
-                src="/images/image-6.webp"
+                src="/images/image-4.webp"
                 alt="Cumpleañero"
-                className="w-full h-full object-cover object-[center_30%]"
+                className="w-full h-full object-cover object-[center_63%]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-amber-900/30 to-transparent"></div>
             </div>
@@ -62,9 +62,11 @@ export default function Invitation() {
                 className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6"
                 style={{ fontFamily: 'Comic Neue, cursive' }}
               >
-                Con mucha alegría te invito a celebrar mi primer añito de vida.
-                Será un día lleno de diversión, risas y momentos especiales que
-                quiero compartir contigo.
+                Hace un año llegue para llenar todo de amor, risas y travesuras!
+                Ya sé gatear, reír y robar corazones 💙
+                Ahora solo me falta festejar con vos 🥳
+
+                Y quiero invitarte a celebrar conmigo este día tan especial!
               </p>
 
               <div className="space-y-4">
@@ -91,7 +93,7 @@ export default function Invitation() {
                   </div>
                   <div>
                     <p className="font-bold text-lg" style={{ fontFamily: 'Fredoka, sans-serif' }}>
-                      18:00 hs
+                      19:30 hs
                     </p>
                   </div>
                 </motion.div>
@@ -105,7 +107,7 @@ export default function Invitation() {
                   </div>
                   <div>
                     <p className="font-bold text-lg" style={{ fontFamily: 'Fredoka, sans-serif' }}>
-                      Casa de mis abuelos
+                      Mi Casa
                     </p>
                   </div>
                 </motion.div>
