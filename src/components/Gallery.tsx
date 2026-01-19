@@ -137,23 +137,42 @@ export default function Gallery() {
                     className="relative rounded-2xl overflow-hidden shadow-xl bg-white"
                     style={{ willChange: "transform" }}
                   >
-                    <img
-                      src={photo}
-                      alt={`Momento ${(idx % allPhotos.length) + 1}`}
-                      draggable={false}
+                    {/* ✅ Contenedor: define tamaño / proporción */}
+                    <div
                       className="
-                        w-[86vw] sm:w-[44vw] md:w-[30vw] lg:w-[18vw]
-                        h-72 sm:h-72 md:h-80 lg:h-72
-                        object-cover
-                      "
-                    />
+      relative
+      w-[88vw] sm:w-[46vw] md:w-[30vw] lg:w-[18vw]
+      aspect-[3/4]
+      bg-white
+    "
+                    >
+                      {/* Fondo suave (opcional) para que object-contain quede prolijo */}
+                      <div className="absolute inset-0 bg-gradient-to-br from-yellow-100/60 to-sky-100/60" />
+                      <div
+                        className="absolute inset-0 opacity-30 blur-xl"
+                        style={{
+                          backgroundImage: `url(${photo})`,
+                          backgroundSize: "cover",
+                          backgroundPosition: "center",
+                        }}
+                      />
+
+                      {/* ✅ Imagen completa, sin recorte */}
+                      <img
+                        src={photo}
+                        alt={`Momento ${(idx % allPhotos.length) + 1}`}
+                        draggable={false}
+                        className="absolute inset-0 w-full h-full object-contain p-3 sm:p-4"
+                      />
+                    </div>
 
                     {/* Overlay elegante */}
                     <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <div className="absolute inset-0 bg-gradient-to-t from-amber-900/35 via-transparent to-transparent" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-amber-900/25 via-transparent to-transparent" />
                       <div className="absolute inset-0 ring-2 ring-amber-400/40" />
                     </div>
                   </motion.div>
+
 
                   {/* Badge */}
                   <motion.div
