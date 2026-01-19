@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
-import AdminLogin from "./pages/AdminLogin";
+import AdminLogin from "./pages/login";
 import ProtectedRoute from "./components/ProtectedRoute";
-import AdminDashboard from "./pages/AdminDashboard";
+import AdminDashboard from "./pages/admin";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
 
         {/* Admin */}
-        <Route path="/adminLogin" element={<AdminLogin />} />
+        <Route path="/login" element={<AdminLogin />} />
 
         <Route
           path="/admin"
